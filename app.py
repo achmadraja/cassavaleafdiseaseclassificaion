@@ -16,12 +16,11 @@ def home_page():
     st.markdown("Selamat datang di website kami!")
 
     # Load the pre-trained model
-    model_path = '../best_model.h5'
+    model_path = 'best_model.h5'
     model = load_model(model_path)
 
     # Load sample submission data
-    WORK_DIR = '../cassava'
-    ss = pd.read_csv(os.path.join(WORK_DIR, "sample_submission.csv"))
+    WORK_DIR = '../cassavaleafdiseaseclassification'
 
     # Set the target size
     TARGET_SIZE = 224
