@@ -1,6 +1,5 @@
 streamlit
 tensorflow
-load_model
 numpy
 matplotlib
 Image
